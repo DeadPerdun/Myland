@@ -1,0 +1,88 @@
+.preferences{
+    margin-bottom: 100px;
+    &__info{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    &__title{
+        color: $navbar-color-hover;
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+
+    &__subtitle{
+        color:$preferences-text;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+
+    }
+
+    &__desc{
+        color: $preferences-text;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: 15px;
+        margin-bottom: 97px;
+
+    }
+
+    &__block{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-bottom: 78px;
+        align-items: baseline;
+    }
+
+    &__item{
+        max-height: 204px;
+        img{
+            margin-bottom: 44px;
+        }
+
+        h3{
+            color:$navbar-color-hover;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            color: $preferences-desc ;
+            font-size: 15px;
+            line-height: 20px;
+            
+        }
+    }
+
+    &__btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn a {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 22px 23px 22px 27px;
+        color:$white;
+        background-color:$preferences-btn;
+        border-radius: 5px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        
+
+    }
+
+    
+
+
+
+}

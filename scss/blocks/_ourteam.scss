@@ -1,0 +1,62 @@
+.ourteam{
+    margin-top: 100px;
+    margin-bottom: 138px;
+    text-align: center;
+
+    &__info{
+        &-title{
+            color:$navbar-color-hover;
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 29px;
+        }
+
+        &-subtitle{
+            color:$preferences-text;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+    }
+
+    &__gallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 98px;
+        margin-bottom: 60px;
+
+        &-center{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+
+    &__aboutus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &-title{
+            margin-bottom: 20px;
+            color:$navbar-color-hover;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+        }
+
+        &-desc{
+            margin-bottom: 30px;
+            color:$preferences-text;
+            font-size: 15px;
+        }
+
+        img{
+            margin-right:31px;
+        }
+
+    }
+
+
+}

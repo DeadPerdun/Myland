@@ -1,0 +1,97 @@
+.comments{
+    background: url(../img/cbg.png) no-repeat center/cover;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info{
+        padding-top: 134px;
+        display: flex;
+        flex-direction: column;
+        
+        &-title{
+            color:$white;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        &-desc{
+            color:$white;
+            line-height: 25px;
+            font-size: 15px;
+            margin-bottom: 80px;
+        }
+
+        &-button{
+            margin-bottom: 144px;
+            
+             
+            
+
+            a{ 
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: 700;
+                box-sizing: border-box;
+                width: 150px;
+                height: 55px;
+                display: inline-block;
+                padding: 22px 22px 22px 28px;
+                color:$white;
+                border-radius: 5px;
+                background-color:$navbar-color-hover;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                
+
+            }
+        }
+    }
+
+
+    &__block{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 87px;
+        
+
+        &-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 70px;
+            
+
+            img{
+                margin-right: 50px;
+            }
+
+        }
+
+        &-uscom{
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            background: $white;
+            padding: 32px 64px 30px 31px;
+
+            &-title{
+                margin-bottom: 20px;
+                color:$navbar-color-hover;
+                line-height: 25px;
+                font-weight: 700;
+                font-size: 18px;
+            }
+
+            &-com{
+                color:$preferences-text;
+                font-size: 15px;
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,149 @@
+.contactus{
+    background-color:$contactusbg-color;
+
+    &__container{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    &__info{
+        text-align: center;
+        
+
+        &-title{
+            padding-top: 49px;
+            color:$navbar-color-hover;
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 29px;
+            
+        }
+
+        &-desc{
+            color:$navbar-color-hover;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 49px;
+        }
+    }
+    &__forms{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .column__block{
+            flex-direction: row;
+        }
+
+        &-block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 100px;
+        }
+
+        &-item {
+            margin-bottom: 15px;
+            
+            input{
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                
+                border: 1px solid $navbar-color-hover;
+                border-radius: 5px;
+                width: 280px;
+                height: 50px;
+                padding-left: 20px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 30px;
+
+                &::placeholder{color: $navbar-color-hover;}
+                &:active, &:focus {
+                    outline: none;
+                }
+                &::-moz-focus-inner {
+                    border: 0;
+                }
+            }
+        }
+            
+
+            &-message{
+            margin-bottom: 20px;
+
+                textarea{
+                    box-sizing: border-box;
+                    padding-top: 20px;
+                    padding-left: 20px;
+                    width: 600px;
+                    height: 150px;
+                    border-radius: 5px;
+                    border: 1px solid #061e37;
+
+                    &::placeholder{color: $navbar-color-hover;}
+
+                    &:active, &:focus {
+                        outline: none;
+                    }
+                    &::-moz-focus-inner {
+                        border: 0;
+                    }
+                
+            }
+        }
+
+
+
+        &-checkbox{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            #icon{
+                width: 18px;
+                height: 18px;
+                display: block;
+                position: relative;
+            }
+
+            input[type="checkbox"] + span{
+                position: absolute; /* Абсолютное позиционирование */
+                left: 0; top: 0;
+                background: url(../img/check_box_outline_blank_black_18x18.png) no-repeat;
+                width: 100%; height: 100%;
+                cursor: pointer;   
+            }
+
+            input[type="checkbox"]:checked + span{background: url(../img/check_box_black_18x18.png) no-repeat;}
+            #label{
+                margin-left: 9px;
+            }
+        }
+
+        &-submit{
+                button{
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                    border-radius: 5px;
+                    background-color: #1de9b6;
+                    cursor: pointer;
+                }
+
+                p{
+                    box-sizing: border-box;
+                    width: 130px;
+                    height: 50px;
+                    display: inline-block;
+                    padding: 19px 43px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    color: $white;
+                    
+                }
+        }
+        
+    }
+}
