@@ -156,7 +156,7 @@ body {
 }
 
 .header {
-  background: url(../img/Background.png) no-repeat center top/cover;
+  background: url("../img/Background.webp") no-repeat center top/cover;
 }
 
 .header__bar {
@@ -488,7 +488,7 @@ a::-moz-focus-inner {
 }
 
 .comments {
-  background: url(../img/cbg.png) no-repeat center/cover;
+  background: url(../img/cbg.webp) no-repeat center/cover;
 }
 
 .comments__container {
